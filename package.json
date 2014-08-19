@@ -1,6 +1,6 @@
 {
   "name": "title-case",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Title case a string",
   "main": "title-case.js",
   "scripts": {
