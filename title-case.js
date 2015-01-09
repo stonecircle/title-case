@@ -8,5 +8,5 @@ var sentence = require('sentence-case');
  * @return {String}
  */
 module.exports = function (string) {
-  return sentence(string).replace(/^\w| \w/g, upper);
+  return sentence(string).replace(/^.| ./g, upper);
 };

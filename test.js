@@ -22,4 +22,8 @@ describe('title case', function () {
     assert.equal(titleCase('TestString'), 'Test String');
     assert.equal(titleCase('TestString1_2_3'), 'Test String 1 2 3');
   });
+
+  it('should support non-ascii characters', function () {
+    assert.equal(titleCase('éxample'), 'Éxample');
+  });
 });
