@@ -26,4 +26,8 @@ describe('title case', function () {
   it('should support non-ascii characters', function () {
     assert.equal(titleCase('éxample'), 'Éxample');
   });
+
+  it('should support locales', function () {
+    assert.equal(titleCase('STRING', 'tr'), 'Strıng');
+  });
 });

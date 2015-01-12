@@ -30,7 +30,7 @@
     "pre-commit": "0.0.9"
   },
   "dependencies": {
-    "sentence-case": "^1.1.0",
+    "sentence-case": "^1.1.1",
     "upper-case": "^1.0.3"
   }
 }
