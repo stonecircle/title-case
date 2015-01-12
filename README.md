@@ -21,6 +21,8 @@ var titleCase = require('title-case');
 
 titleCase('string');     //=> "String"
 titleCase('PascalCase'); //=> "Pascal Case"
+
+titleCase('STRING', 'tr'); //=> "Strıng"
 ```
 
 ## License
