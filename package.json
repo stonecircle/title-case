@@ -3,6 +3,10 @@
   "version": "1.0.1",
   "description": "Title case a string",
   "main": "title-case.js",
+  "files": [
+    "title-case.js",
+    "LICENSE"
+  ],
   "scripts": {
     "test": "istanbul cover _mocha -- -R spec"
   },
