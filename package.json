@@ -34,13 +34,12 @@
   },
   "homepage": "https://github.com/blakeembrey/title-case",
   "devDependencies": {
-    "istanbul": "^0.3.0",
+    "istanbul": "^0.4.3",
     "mocha": "^2.2.1",
-    "pre-commit": "^1.0.6",
-    "standard": "^3.3.0"
+    "standard": "^7.1.2"
   },
   "dependencies": {
-    "sentence-case": "^1.1.1",
+    "no-case": "^2.0.0",
     "upper-case": "^1.0.3"
   }
 }
