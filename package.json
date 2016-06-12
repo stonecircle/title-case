@@ -39,7 +39,7 @@
     "standard": "^7.1.2"
   },
   "dependencies": {
-    "no-case": "^2.0.0",
+    "no-case": "^2.2.0",
     "upper-case": "^1.0.3"
   }
 }
