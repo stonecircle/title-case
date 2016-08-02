@@ -35,7 +35,7 @@
   "homepage": "https://github.com/blakeembrey/title-case",
   "devDependencies": {
     "istanbul": "^0.4.3",
-    "mocha": "^2.2.1",
+    "mocha": "^3.0.0",
     "standard": "^7.1.2"
   },
   "dependencies": {
