@@ -31,4 +31,8 @@ describe('title case', function () {
   it('should support locales', function () {
     assert.equal(titleCase('STRING', 'tr'), 'Strıng')
   })
+
+  it('should follow the definition of title-case', function () {
+    assert.equal(titleCase('the quick brown fox jumps over the lazy dog'), 'The Quick Brown Fox Jumps over the Lazy Dog')
+  })
 })
